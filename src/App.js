@@ -52,50 +52,50 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div classNameName="App">
       <h1>HEA-Hardness Predictor</h1>
       <div>
-        <div class="input">
-          <div class="each_box">
+        <div className="input">
+          <div className="each_box">
             <label>Al</label>
             <input type="number" value={Al} onChange={handleChangeAl}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Co</label>
             <input type="number" value={Co} onChange={handleChangeCo}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Cr</label>
             <input type="number" value={Cr} onChange={handleChangeCr}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Cu</label>
             <input type="number" value={Cu} onChange={handleChangeCu}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Fe</label>
             <input type="number" value={Fe} onChange={handleChangeFe}></input>
           </div>
         </div>
-        <div class="input">
+        <div className="input">
           <div></div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Mn</label>
             <input type="number" value={Mn} onChange={handleChangeMn}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Ni</label>
             <input type="number" value={Ni} onChange={handleChangeNi}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>V</label>
             <input type="number" value={V} onChange={handleChangeV}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Nb</label>
             <input type="number" value={Nb} onChange={handleChangeNb}></input>
           </div>
-          <div class="each_box">
+          <div className="each_box">
             <label>Average Density</label>
             <input
               type="number"
@@ -105,9 +105,11 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="outbox_box">
       <button onClick={handleSubmit}>Predict</button>
 
-      <div>Pedicted value: {Output}</div>
+      <div className="output"> Predicted value: {Output} VHN</div>
+      </div>
     </div>
   );
 }
