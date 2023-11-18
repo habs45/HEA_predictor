@@ -6,6 +6,28 @@
   justify-content: center;
   /* background-color: rgb(242, 242, 242); */
 }
+.heading{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#logo2{
+  /* height:13vh; */
+  width: 30vw;
+  aspect-ratio: 4/1;
+}
+.navbar_heading{
+  font-size: 2.3vh;
+  color: purple;
+  font-weight: 600;
+}
+
+.navbar{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
 
 .App-logo {
   height: 40vmin;
@@ -19,17 +41,69 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
 }
+.navbar{
+  margin-top: 2vh;
+}
+
+#logo{
+  /* /* height: 16vh; */
+  width: 8vw; 
+  aspect-ratio: 1 / 1;
+}
+
+input{
+  height: 20vh;
+  width: 7vw;
+
+}
+.predictor_heading{
+  font-size: 28px;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+
+
+
+#left_box{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  /* background-color: red; */
+}
+.leftInner{
+  padding: 10%;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 5%;
+  background: radial-gradient(
+    circle,
+    rgba(172, 188, 216, 1) 7%,
+    rgba(175, 189, 214, 1) 46%,
+    rgba(193, 195, 199, 1) 77%,
+    rgba(147, 193, 222, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.lft{
+  margin-top: 10px;
+}
+
 .each_box {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   /* border: 2px solid red; */
   border-radius: 8px;
-  padding: 8px;
-  width: 30%;
+  padding: 7px;
+  width: 50%;
   position: relative;
-  margin: 8px;
+  margin: 4px;
 
   background: radial-gradient(
     circle,
@@ -45,11 +119,35 @@ input {
   position: relative;
   /* right: 0;
     */
-  left: 100px;
-  height: 20px;
+  left: 40px;
+  height: 26px;
+}
+#left_box{
+  font-size: 13px;
+  padding-top: 50px;
+  
+}
+.lft{
+  margin-left: 40px;
+  font-size: 24px;
+  margin-right: 10px;
+
+
+}
+
+.top{
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: #282c34 3px 3px 5px;
+  padding-left: 35PX;
+}
+.lft{
+  text-shadow: #282c34 3px 3px 5px;
+  font-family: Georgia, 'Times New Roman', Times, serifS;
+  text-align: justify;
 }
 .output {
-  font-size: 22px;
+  font-size: 38px;
   margin-top: 10px;
 }
 h1 {
@@ -85,12 +183,12 @@ button:hover {
 
 label {
   position: absolute;
-  left: 70px;
+  left: 10%;
   font-weight: 700;
 }
 
 button {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 label {
   display: inline;
@@ -119,6 +217,17 @@ input {
 .App-link {
   color: #61dafb;
 }
+.box{
+  width: 50vw;
+  /* height: 70vh; */
+  /* background-color: red; */
+}
+.two_boxes{
+  display: flex;
+  margin-top: 30px;
+  /* padding-bottom: 100px; */
+
+}
 
 /* @keyframes App-logo-spin {
   from {
@@ -128,3 +237,18 @@ input {
     transform: rotate(360deg);
   }
 } */
+@media screen and (max-width: 1000px) {
+  .navbar_heading{
+    display: none;
+  }
+ }
+@media screen and (max-width: 1000px ){
+.two_boxes{
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  width: 100vw;
+}
+
+}
