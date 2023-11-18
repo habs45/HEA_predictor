@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91239094.css",
+    "main.js": "/static/js/main.c5362236.js",
+    "static/media/iit_logo_original.png": "/static/media/iit_logo_original.d82ac43dd112e40b732d.png",
+    "static/media/iit_emblem_original.jpg": "/static/media/iit_emblem_original.f6701939bc5444ea6fb3.jpg",
+    "index.html": "/index.html",
+    "main.91239094.css.map": "/static/css/main.91239094.css.map",
+    "main.c5362236.js.map": "/static/js/main.c5362236.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91239094.css",
+    "static/js/main.c5362236.js"
+  ]
+}
